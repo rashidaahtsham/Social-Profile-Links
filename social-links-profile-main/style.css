@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');/*Base Style*/
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: Inter, sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding:24px;
+}
+article{
+    background-color: hsl(0, 0%, 12%);
+    width: 100%;
+    max-width: 384px;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+    h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    font-weight: 700;
+}
+.location {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    font-weight: 600;
+}
+.bio{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 0 12px;
+    color: hsl(0, 0%, 100%);
+}
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.social-links a{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px;
+    border-radius: 8px;
+}
+.social-links a:hover,
+.social-links a:focus {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+.profile-image {
+    width: 88px;
+    height: 88px;
+    border-radius:50%;
+    object-fit: cover;
+}
