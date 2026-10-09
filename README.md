@@ -2,6 +2,9 @@
 
 A responsive social links profile card built as part of a [Frontend Mentor](https://www.frontendmentor.io/) challenge using HTML and CSS.
 
+## Screenshot
+
+![Social Links Profile Preview](./preview.jpg)
 ## Overview
 
 This project is a personal social links profile page that displays my profile picture, name, location, a short introduction, and links to my social media profiles.
